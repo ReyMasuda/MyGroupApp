@@ -7,13 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface ViewController : UIViewController{
-    IBOutlet UILabel *groupLabel;
-    IBOutlet UILabel *descriptionLabel;
+    IBOutlet UIButton *enterBt;
 }
 
--(IBAction)enterBt;
+-(IBAction)enterBt:(id)sender;
 
 
 @end

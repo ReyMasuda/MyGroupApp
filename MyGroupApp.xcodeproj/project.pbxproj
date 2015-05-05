@@ -14,6 +14,10 @@
 		CE5FA24B1AF73DFF00580C85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5FA24A1AF73DFF00580C85 /* Images.xcassets */; };
 		CE5FA24E1AF73DFF00580C85 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5FA24C1AF73DFF00580C85 /* LaunchScreen.xib */; };
 		CE5FA25A1AF73DFF00580C85 /* MyGroupAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5FA2591AF73DFF00580C85 /* MyGroupAppTests.m */; };
+		CE6D64371AF8551E00F0A7EC /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6D64361AF8551E00F0A7EC /* MenuViewController.m */; };
+		CE6D643A1AF85A6A00F0A7EC /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6D64391AF85A6A00F0A7EC /* ScheduleViewController.m */; };
+		CE6D643D1AF85A9700F0A7EC /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6D643C1AF85A9700F0A7EC /* InfoViewController.m */; };
+		CE6D64401AF85ACD00F0A7EC /* StaffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6D643F1AF85ACD00F0A7EC /* StaffViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		CE5FA2531AF73DFF00580C85 /* MyGroupAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGroupAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5FA2581AF73DFF00580C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE5FA2591AF73DFF00580C85 /* MyGroupAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGroupAppTests.m; sourceTree = "<group>"; };
+		CE6D64351AF8551E00F0A7EC /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		CE6D64361AF8551E00F0A7EC /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		CE6D64381AF85A6A00F0A7EC /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		CE6D64391AF85A6A00F0A7EC /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		CE6D643B1AF85A9700F0A7EC /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		CE6D643C1AF85A9700F0A7EC /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		CE6D643E1AF85ACD00F0A7EC /* StaffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StaffViewController.h; path = ../StaffViewController.h; sourceTree = "<group>"; };
+		CE6D643F1AF85ACD00F0A7EC /* StaffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StaffViewController.m; path = ../StaffViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +97,14 @@
 				CE5FA2421AF73DFF00580C85 /* AppDelegate.m */,
 				CE5FA2441AF73DFF00580C85 /* ViewController.h */,
 				CE5FA2451AF73DFF00580C85 /* ViewController.m */,
+				CE6D64351AF8551E00F0A7EC /* MenuViewController.h */,
+				CE6D64361AF8551E00F0A7EC /* MenuViewController.m */,
+				CE6D64381AF85A6A00F0A7EC /* ScheduleViewController.h */,
+				CE6D64391AF85A6A00F0A7EC /* ScheduleViewController.m */,
+				CE6D643B1AF85A9700F0A7EC /* InfoViewController.h */,
+				CE6D643C1AF85A9700F0A7EC /* InfoViewController.m */,
+				CE6D643E1AF85ACD00F0A7EC /* StaffViewController.h */,
+				CE6D643F1AF85ACD00F0A7EC /* StaffViewController.m */,
 				CE5FA2471AF73DFF00580C85 /* Main.storyboard */,
 				CE5FA24A1AF73DFF00580C85 /* Images.xcassets */,
 				CE5FA24C1AF73DFF00580C85 /* LaunchScreen.xib */,
@@ -219,9 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6D64401AF85ACD00F0A7EC /* StaffViewController.m in Sources */,
 				CE5FA2461AF73DFF00580C85 /* ViewController.m in Sources */,
 				CE5FA2431AF73DFF00580C85 /* AppDelegate.m in Sources */,
+				CE6D643D1AF85A9700F0A7EC /* InfoViewController.m in Sources */,
+				CE6D643A1AF85A6A00F0A7EC /* ScheduleViewController.m in Sources */,
 				CE5FA2401AF73DFF00580C85 /* main.m in Sources */,
+				CE6D64371AF8551E00F0A7EC /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +440,7 @@
 				CE5FA25F1AF73DFF00580C85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE5FA2601AF73DFF00580C85 /* Build configuration list for PBXNativeTarget "MyGroupAppTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +449,7 @@
 				CE5FA2621AF73DFF00580C85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
